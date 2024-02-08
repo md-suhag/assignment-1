@@ -1,0 +1,149 @@
+
+/* common css code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* hero section  */
+#hero{
+    background-image: url('images/element\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.hero-btn{
+    background-color: #458FF6;
+    text-decoration: none;
+    padding: 10px;
+}
+.hero-btn:hover{
+    background-color: #1d77f5;
+    
+}
+
+
+/* service section  */
+.hr-style{
+    width: 50px;
+    border: 1px solid black;
+    opacity: 1;
+    margin: auto;
+}
+.service-para{
+    width: 90%;
+    margin: auto;
+
+}
+.service-card{
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+    margin-bottom: 20px;
+}
+.service .card{
+    border: none;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.151),-5px -5px 20px rgba(128, 128, 128, 0.151);
+}
+.service{
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+   
+}
+.hr-style2{
+    width: 50px;
+    border: 1px solid black;
+    opacity: 1;
+   
+}
+
+
+/* testimonial  */
+#testimonial{
+    background-image: linear-gradient(#458FF6,#2b5a9c);
+    position: relative;
+    
+}
+.design{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.carousel-indicators{
+    color: red;
+    margin-bottom: -25px ;
+}
+.carousel-indicators > button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    
+}
+.carousel-control-prev i, .carousel-control-next i{
+    color: white;
+   
+     /* background-color: rgba(255, 255, 255, 0.411); */
+     font-size: 20px;
+
+ 
+    
+}
+.carousel-control-prev, .carousel-control-next {
+    bottom: -25px;
+    top: auto;
+    
+}
+
+.card-footer{
+    border: none;
+}
+.card-footer a {
+    text-decoration: none;
+    color: #458FF6;
+}
+#blog{
+    background-image: url('images/element\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+#blog .card h5{
+    font-weight: bold;
+}
+footer{
+    background-image: linear-gradient(#65BDF3,#5A98F2);
+    position: relative;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+footer h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ footer .col-md-6{
+    padding: 10px ;
+}
+.footer-element{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
